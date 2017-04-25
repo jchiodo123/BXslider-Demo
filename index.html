@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="css/Normalize.css" rel="stylesheet" type="text/css">
+  <!--<link href="css/styles.css" rel="stylesheet" type="text/css">-->
+  
+  <script type="text/javascript" src="/script/jquery-3.2.1.min.js"></script>
+    <!-- bxSlider Javascript file -->
+  <script src="/js/jquery.bxslider.js"></script>
+  <!-- bxSlider CSS file -->
+  <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+  <title>BXslider Demo</title>
+</head>
+
+<body>
+
+  
+    <div id='slidercontainer'>
+      <div id='slidertitle'>
+        <p><span>Waterfalls</span></p>
+      </div>
+      <ul class="bxslider">
+        <li><img src="images/waterfall1.jpg" alt="Picture of waterfall"/></li>
+        <li><img src="images/waterfall2.jpg" alt="Picture of waterfall"/></li>
+        <li><img src="images/waterfall3.jpg" alt="Picture of waterfall"/></li>
+        <li><img src="images/waterfall4.jpg" alt="Picture of waterfall"/></li>
+        <li><img src="images/waterfall5.jpg" alt="Picture of waterfall"/></li>
+        <li><img src="images/waterfall6.jpg" alt="Picture of waterfall"/></li>
+        <li><img src="images/waterfall7.jpg" alt="Picture of waterfall"/></li>
+        <li><img src="images/waterfall8.jpg" alt="Picture of waterfall"/></li>
+        <li><img src="images/waterfall9.jpg" alt="Picture of waterfall"/></li>
+      </ul>
+    </div>
+
+  
+  
+  
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.bxslider').bxSlider({
+        mode: 'vertical',   <!--verical slideshow-->
+        slideWidth: 850,    <!--container and picture width-->  
+        auto: true,         <!--autoplay slideshow--> 
+        autoControls: true  <!--autoplay controls, pause/play--> 
+      });
+    });
+  </script>
+  
+  
+  
+</body>
+</html>
